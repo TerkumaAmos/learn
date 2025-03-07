@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:learmn/alert_dailog.dart';
+import 'package:learmn/animated_text.dart';
+import 'package:learmn/bottom_navigation.dart';
 import 'package:learmn/bottom_sheet.dart';
 import 'package:learmn/button.dart';
 import 'package:learmn/dismissibble.dart';
@@ -24,6 +26,6 @@ class MyApp extends StatelessWidget {
           brightness: Brightness.light,
           primaryColor: Colors.deepOrange,
         ),
-        home: BottomSheetWidget());
+        home: BottomNavigationWidget());
   }
 }
