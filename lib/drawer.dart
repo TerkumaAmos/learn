@@ -39,35 +39,35 @@ class _DrawerWidgetState extends State<DrawerWidget> {
                   ),
                 ),
               ),
-              const ListTile(
-                leading: Icon(Icons.folder),
-                title: Text('My Files'),
-              ),
-              const ListTile(
-                leading: Icon(Icons.group),
-                title: Text('Shared with me'),
-              ),
-              const ListTile(
-                leading: Icon(Icons.star),
-                title: Text('Starred'),
-              ),
-              const ListTile(
-                leading: Icon(Icons.delete),
-                title: Text('Trash'),
-              ),
-              const ListTile(
-                leading: Icon(Icons.upload),
-                title: Text('Uploads'),
-              ),
-              const Divider(),
-              const ListTile(
-                leading: Icon(Icons.share),
-                title: Text('Share'),
-              ),
-              const ListTile(
-                leading: Icon(Icons.logout),
-                title: Text('Logout'),
-              ),
+              // const ListTile(
+              //   leading: Icon(Icons.folder),
+              //   title: Text('My Files'),
+              // ),
+              // const ListTile(
+              //   leading: Icon(Icons.group),
+              //   title: Text('Shared with me'),
+              // ),
+              // const ListTile(
+              //   leading: Icon(Icons.star),
+              //   title: Text('Starred'),
+              // ),
+              // const ListTile(
+              //   leading: Icon(Icons.delete),
+              //   title: Text('Trash'),
+              // ),
+              // const ListTile(
+              //   leading: Icon(Icons.upload),
+              //   title: Text('Uploads'),
+              // ),
+              // const Divider(),
+              // const ListTile(
+              //   leading: Icon(Icons.share),
+              //   title: Text('Share'),
+              // ),
+              // const ListTile(
+              //   leading: Icon(Icons.logout),
+              //   title: Text('Logout'),
+              // ),
             ],
           ),
         ),
@@ -75,11 +75,11 @@ class _DrawerWidgetState extends State<DrawerWidget> {
       appBar: AppBar(
         title: const Text('Drawer Widget'),
       ),
-      body: Container(
-        child: const Center(
-          child: Text('Hey there'),
-        ),
-      ),
+      // body: Container(
+      //   child: const Center(
+      //     child: Text('Hey there'),
+      //   ),
+      // ),
     );
   }
 }
