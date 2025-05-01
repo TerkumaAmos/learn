@@ -21,11 +21,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        debugShowCheckedModeBanner: false,
-        theme: ThemeData(
-          brightness: Brightness.light,
-          primaryColor: Colors.deepOrange,
-        ),
-        home: BottomNavigationWidget());
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        brightness: Brightness.light,
+        primaryColor: Colors.deepOrange,
+      ),
+      home: const BottomNavigationWidget(),
+    );
   }
 }
