@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class commision extends StatelessWidget {
-  const commision({
+class Commision extends StatelessWidget {
+  const Commision({
     super.key,
   });
 
@@ -11,10 +11,10 @@ class commision extends StatelessWidget {
       margin: const EdgeInsets.symmetric(
         horizontal: 20,
       ),
-      width: 400,
-      height: 200,
+      width: 500,
+      height: 250,
       decoration: BoxDecoration(
-        color: Colors.blueAccent,
+        color: const Color(0xFF040581),
         borderRadius: BorderRadius.circular(
           10,
         ),
@@ -22,7 +22,7 @@ class commision extends StatelessWidget {
       child: Column(
         children: [
           Container(
-            margin: const EdgeInsets.only(left: 20, right: 20, top: 10),
+            margin: const EdgeInsets.only(left: 20, right: 20, top: 30),
             child: const Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
@@ -44,7 +44,7 @@ class commision extends StatelessWidget {
             ),
           ),
           Container(
-            margin: const EdgeInsets.only(left: 20, right: 20, top: 10),
+            margin: const EdgeInsets.only(left: 20, right: 20, top: 30),
             child: const Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
@@ -65,7 +65,7 @@ class commision extends StatelessWidget {
               ],
             ),
           ),
-          const SizedBox(height: 30),
+          const SizedBox(height: 40),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
@@ -80,7 +80,7 @@ class commision extends StatelessWidget {
                 ),
                 child: const Icon(
                   Icons.add,
-                  color: Colors.blueAccent,
+                  color: const Color(0xFF040581),
                   size: 30,
                 ),
               ),
@@ -95,7 +95,7 @@ class commision extends StatelessWidget {
                 ),
                 child: const Icon(
                   Icons.account_balance_wallet,
-                  color: Colors.blue,
+                  color: const Color(0xFF040581),
                 ),
               ),
               Container(
@@ -109,7 +109,7 @@ class commision extends StatelessWidget {
                 ),
                 child: const Icon(
                   Icons.swap_vert,
-                  color: Colors.blue,
+                  color: const Color(0xFF040581),
                 ),
               ),
             ],
