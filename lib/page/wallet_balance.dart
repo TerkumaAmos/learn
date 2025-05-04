@@ -36,7 +36,7 @@ class _WalletBalanceState extends State<WalletBalance> {
       ),
       body: ListView(
         children: [
-         const Commision(),
+          const Commision(),
           const SizedBox(height: 40),
           Container(
             alignment: Alignment.centerLeft,
